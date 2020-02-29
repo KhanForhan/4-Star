@@ -1,0 +1,81 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 20,
+        "name": "Successful LogOut",
+        "description": "",
+        "id": "this-feature-file-will-test-the-login-functionality;successful-logout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 119563978,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User LogOut from the Application",
+            "match": {
+              "location": "LoginDefinitions.user_LogOut_from_the_Application(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Faruq",
+                  "1234"
+                ],
+                "line": 22
+              },
+              {
+                "cells": [
+                  "Rezaul",
+                  "3456"
+                ],
+                "line": 23
+              },
+              {
+                "cells": [
+                  "Forhan",
+                  "5678"
+                ],
+                "line": 24
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 68361,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Message displayed LogOut Successfully",
+            "match": {
+              "location": "LoginDefinitions.message_displayed_LogOut_Successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@table"
+          }
+        ]
+      }
+    ],
+    "name": "This feature file will test the login functionality",
+    "description": "",
+    "id": "this-feature-file-will-test-the-login-functionality",
+    "keyword": "Feature",
+    "uri": "Login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@LogIn"
+      }
+    ]
+  }
+]
